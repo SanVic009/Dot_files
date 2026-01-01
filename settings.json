@@ -1,0 +1,50 @@
+{
+  "workbench.iconTheme": "material-icon-theme",
+  "keyboard.dispatch": "keyCode",
+  "vim.useSystemClipboard": true,
+  "terminal.integrated.inheritEnv": false,
+  "editor.lineNumbers": "relative",
+  "workbench.colorTheme": "Minimal Kiwi",
+  "security.workspace.trust.untrustedFiles": "open",
+  "explorer.confirmDragAndDrop": false,
+  "editor.wordWrap": "on",
+  "explorer.confirmDelete": false,
+  "git.confirmSync": false,
+  "github.copilot.enable": {
+    "*": false,
+    "plaintext": false,
+    "markdown": false,
+    "scminput": false,
+    "python": false
+  },
+  "git.enableSmartCommit": true,
+  "liveServer.settings.donotShowInfoMsg": true,
+  "python.defaultInterpreterPath": "/home/sanvict/miniconda3/bin/python",
+  "C_Cpp.default.intelliSenseMode": "linux-gcc-x64",
+  "C_Cpp.intelliSenseUpdateDelay": 500,
+  "gitlens.ai.model": "vscode",
+  "gitlens.ai.vscode.model": "copilot:gpt-4.1",
+  "editor.fontLigatures": true,
+  "editor.fontFamily": "'Fira Code'",
+  "extensions.ignoreRecommendations": true,
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "chat.tools.terminal.autoApprove": {
+    "spec_freq.shape}')": true,
+    "spec_time.shape}')": true,
+    "h_after}x": true,
+    "w_after}x128": true,
+    "flattened}')": true,
+    "source ~/miniconda3/etc/profile.d/conda.sh && conda activate voice && python create_chiffchaff_limited_csvs.py": {
+      "approve": true,
+      "matchCommandLine": true
+    },
+    "tee": true
+  },
+  "launch": {
+    "configurations": [
+    
+    ]
+  }
+}
