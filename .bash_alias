@@ -1,0 +1,26 @@
+# Aliases :-
+
+# Configs
+alias bashconfig='vim ~/.bashrc'
+alias vimconfig='vim ~/.vimrc'
+alias tconfig='vim ~/.config/tmux/tmux.conf'
+
+# sourcing
+alias src='source ~/.bashrc'
+alias tsrc='tmux source-file ~/.config/tmux/tmux.conf'
+
+# utils
+alias gpucheck="conda run -n vit && python ~/.gpu_check.py"
+alias upg="sudo apt update && sudo apt upgrade -y; sudo apt autoremove"
+
+# fzf
+alias f='fzf'
+
+# Zoxide
+alias cd='z'
+
+# Eza
+alias ea='eza -lh --icons --sort extension'
+
+# Ollama
+alias gemma="ollama run gemma3:4b-it-qat"
